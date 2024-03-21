@@ -6,7 +6,7 @@ namespace UsuariosAPI.Data
 {
     public class UsuarioDbContext : IdentityDbContext<Usuario>
     {
-        protected UsuarioDbContext
+        public UsuarioDbContext
             (DbContextOptions<UsuarioDbContext> opts) : base(opts)
         {   
         
