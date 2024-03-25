@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ESTUDO\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj": {}
+    "D:\\Estudos\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj": {}
   },
   "projects": {
-    "C:\\ESTUDO\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj": {
+    "D:\\Estudos\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ESTUDO\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj",
+        "projectUniqueName": "D:\\Estudos\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj",
         "projectName": "UsuariosAPI",
-        "projectPath": "C:\\ESTUDO\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj",
+        "projectPath": "D:\\Estudos\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj",
         "packagesPath": "C:\\Users\\Gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\ESTUDO\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\obj\\",
+        "outputPath": "D:\\Estudos\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,6 +65,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             }
           },
           "imports": [
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
