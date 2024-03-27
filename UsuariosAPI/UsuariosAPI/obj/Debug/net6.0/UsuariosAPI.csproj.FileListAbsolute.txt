@@ -95,3 +95,8 @@ D:\Estudos\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\obj\Debug\net6.0\refint\Us
 D:\Estudos\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\obj\Debug\net6.0\UsuariosAPI.pdb
 D:\Estudos\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\obj\Debug\net6.0\UsuariosAPI.genruntimeconfig.cache
 D:\Estudos\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\obj\Debug\net6.0\ref\UsuariosAPI.dll
+C:\ESTUDO\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\ESTUDO\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ESTUDO\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\ESTUDO\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\ESTUDO\DOTNET\UsuariosAPI\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

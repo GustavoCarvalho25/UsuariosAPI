@@ -179,7 +179,7 @@ namespace UsuariosAPI.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("varchar(256)");
 
-                    b.Property<string>("NormalizedUserName")
+                    b.Property<string>("NormalizedUsername")
                         .HasMaxLength(256)
                         .HasColumnType("varchar(256)");
 
@@ -198,7 +198,7 @@ namespace UsuariosAPI.Migrations
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("tinyint(1)");
 
-                    b.Property<string>("UserName")
+                    b.Property<string>("Username")
                         .HasMaxLength(256)
                         .HasColumnType("varchar(256)");
 
@@ -207,9 +207,9 @@ namespace UsuariosAPI.Migrations
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
 
-                    b.HasIndex("NormalizedUserName")
+                    b.HasIndex("NormalizedUsername")
                         .IsUnique()
-                        .HasDatabaseName("UserNameIndex");
+                        .HasDatabaseName("UsernameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
                 });

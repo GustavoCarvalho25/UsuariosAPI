@@ -7,13 +7,13 @@ using UsuariosAPI.Models;
 
 namespace UsuariosAPI.Services
 {
-    internal class TokenService
+    public class TokenService
     {
-        public void GenerateToken(Usuario usuario)
+        public string GenerateToken(Usuario usuario)
         {
             Claim[] claims = new Claim[]
             {
-                new Claim("username", usuario.UserName),
+                new Claim("UserName", usuario.UserName),
                 new Claim("id", usuario.Id),
                 new Claim(ClaimTypes.DateOfBirth, usuario.DataNascimento.ToString())
             };
@@ -32,6 +32,8 @@ namespace UsuariosAPI.Services
                     claims: claims,
                     signingCredentials: signingCredentials
                 );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

@@ -2139,11 +2139,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudos\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj",
+      "projectUniqueName": "C:\\ESTUDO\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj",
       "projectName": "UsuariosAPI",
-      "projectPath": "D:\\Estudos\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj",
+      "projectPath": "C:\\ESTUDO\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI.csproj",
       "packagesPath": "C:\\Users\\Gusta\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudos\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\obj\\",
+      "outputPath": "C:\\ESTUDO\\DOTNET\\UsuariosAPI\\UsuariosAPI\\UsuariosAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2222,30 +2222,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'System.IdentityModel.Tokens.Jwt' 6.27.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'System.IdentityModel.Tokens.Jwt' 6.27.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

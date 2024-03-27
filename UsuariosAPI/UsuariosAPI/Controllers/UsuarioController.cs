@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
+using UsuariosAPI.Data;
 using UsuariosAPI.Data.Dtos;
 using UsuariosAPI.Models;
 using UsuariosAPI.Services;
@@ -12,10 +14,12 @@ namespace UsuariosAPI.Controllers
     public class UsuarioController : ControllerBase
     {
         private UsuarioService _usuarioService;
+        private UsuarioDbContext _userContext;
 
-        public UsuarioController(UsuarioService usuarioService)
+        public UsuarioController(UsuarioService usuarioService, UsuarioDbContext userContext)
         {
             _usuarioService = usuarioService;
+            _userContext = userContext;
         }
 
         [HttpPost("cadastro")]
@@ -24,15 +28,16 @@ namespace UsuariosAPI.Controllers
             CreateUsuarioDto createUsuarioDto
         )
         {
-            _usuarioService.CadastraUsuarioAsync(createUsuarioDto);
+            await _usuarioService.CadastraUsuarioAsync(createUsuarioDto);
             return Ok("Usuario cadastrado com sucesso!!!");
         }
+
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginUsuarioDto loginDto)
         {
-            await _usuarioService.LoginAsync(loginDto);
-            return Ok("Usuario Autenticado!");
+            var token = await _usuarioService.LoginAsync(loginDto);
+            return Ok(token);
         }
     }
 }
